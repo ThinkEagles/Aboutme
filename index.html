@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ikenna Amobi</title>
+    <link rel="stylesheet" type="text/css" href="C:/Users/iamob/Desktop/CAcademy-projects/Portfolio-Website/aboutMe.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav">
+      <div id="nameheader">
+        <h1>Ikenna Amobi</h1>
+      </div>
+      <ul id="nav-ul">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#keyskills">key Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#areaof">Area of Expertise</a></li>
+        <li><a href="#personal">Personal Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <span id="aboutme">About Me</span>
+    <img id="img-pic" src="C:/Users/iamob/Desktop/CAcademy-projects/Portfolio-Website/profesional-pic.jpg" alt="Professional Picture">
+    <p>Hello, my name is Ikenna Amobi. <br>
+       I am a committed full-stack software engineer holding a Master's degree in Engineering Management (MeM).
+       <br>My academic background includes a Bachelor's degree in Mathematics and an Associate degree in Science,<br>
+       providing me with a strong mathematical and science foundation.
+    </p>
+    <p>Profession: Web App Developer with a focus on Full Stack Development and User Experience Design.</p>
+    
+    <p id="keyskills">Key Skills:</p>
+    <ul>
+      <li>Proficient in HTML, CSS, and JavaScript</li>
+      <li>Experienced in using modern frameworks like React and Bootstrap.</li>
+      <li>Skilled in responsive design and cross-browser compatibility</li>
+      <li>Statistics and probability</li>
+      <li>Mathematical modeling</li>
+    </ul>
+
+    <p id="areaof">Areas of Expertise:</p>
+    <ul>
+      <li>Building interactive and user-friendly web applications.</li>
+      <li>Implementing clean and efficient code following best practices.</li>
+      <li>Version control using Git and GitHub.</li>
+      <li>Integrating web applications with databases.</li>
+    </ul>
+
+    <p>
+      <span id="portfolio"> Portfolio</span><br>
+      I am always excited to embrace new challenges and collaborate on projects that have a meaningful impact. Feel free to check out my portfolio and get in touch if you’d like to connect!
+    </p>
+
+    <p>
+      <span id="personal">Personal Story</span><br>
+      My adventure in web development began with a desire to create user-friendly and visually stunning interfaces, along with a comprehensive understanding of how to develop robust and scalable web applications. Over the years, I have sharpened my skills in HTML, CSS, and JavaScript, and I have gained significant experience with contemporary frameworks such as React and Bootstrap.
+    </p>
+  </main>
+  <script>
+    let navItems = document.querySelectorAll("#nav-ul li");
+    navItems.forEach(function(navItem) {
+    navItem.addEventListener('click', function() {
+        // Reset the color of all items
+        navItems.forEach(function(item) {
+            item.style.backgroundColor = '';
+            item.style.color = '';
+        });
+
+        // Change the background and text color of the clicked item
+        navItem.style.backgroundColor = 'blue';
+        navItem.style.color = 'white';
+    });
+});
+  </script>
+</body>
+</html>
