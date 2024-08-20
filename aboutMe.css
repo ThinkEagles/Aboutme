@@ -1,0 +1,97 @@
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+#header{
+   
+    width: 100%;
+    padding-top: 0px;
+    padding: 0px;
+   height: 150px;
+   
+    }
+      
+     
+    #nav{
+        display:flex;
+        list-style: none;
+        background-color:rgb(173, 216, 230);
+        width: 100%;
+        height: 150px;
+        margin-top: 0px;
+        padding-top: 0px;
+        position:fixed;
+                  
+
+    }
+    #nameheader{
+        padding-top: 150px;
+        padding-left: 50px;
+        align-self: flex-end;
+        margin-bottom: 0;
+    }
+    #nav-ul{
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 0px;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding-left: 200px;
+    }
+     
+
+  #nav-ul li{
+  padding: 0px 10px 0px 30px;
+  text-decoration: none;
+
+  }
+  
+  main{
+    margin-top: 20px;
+  }  
+  
+    
+    #img-pic{
+         display: inline;
+        width: 307px;
+        height: 409px; 
+        padding-right: 170px;
+        margin-top: 0px;
+        float: right;
+        padding-top: 0px;
+              
+    }
+a{
+        text-decoration: none;
+        color:black;
+    }
+    #aboutme{
+       padding-top: 160px;
+       margin-top: -150px;
+        color: blue;
+        font-size: larger;
+    }
+    #keyskills{
+        padding-top: 170px;
+        margin-top: -160px;
+        color: blue;
+        font-size: larger;
+    }
+    #portfolio{
+        color: blue;
+        font-size: larger;   
+    }
+
+    #areaof{
+        color: blue;
+        font-size: larger;  
+    }
+    #personal{
+       
+        color: blue;
+        font-size: larger;  
+    }
