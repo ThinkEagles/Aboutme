@@ -1,51 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            padding:  20px;
-            
-        }
-        .message{
-            display: none;
-            margin-top: 20px;
-            background-color: #e0ffe0;
-            border: 1px solid #00b300;
-            color: #00b300; 
-            }
-            textarea{
-                width: 500px;
-                height:100px;
-            
-            }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <h2>Contact Me @ 812-647-0759/ike.gensoft@gmail.com Or
-    <br> feel free to leave a message by filling up the form bellow. </h2>  
-  <form id="contactForm">
-    <label for="name">name:</label><br>
-    <input type="text" id="name" name="name" required> <br> <br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email" required><br><br>
-    <label for="message">Message:</label><br>
-    <textarea name="message" id="message" required></textarea><br><br>
-    <button type="submit">submit</button>
-    <input type="button" value="submit" onclick="alert('thank You, i will get back in touch with you')"/>
-      </form>
-      <div class="message" id="thankYouMessage">
-        Thank you for contacting me, i will bee getting back to you.
-      </div>
-      <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevents the default form submission behavior
-            document.getElementById('thankYouMessage').style.display = 'block'; // Shows the thank you message
-            this.reset(); // Optionally reset the form fields
-        });
-    </script>
+  
 </body>
 </html>
